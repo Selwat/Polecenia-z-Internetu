@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(98, 90, 80);
+}
+
+.elemeent_div {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+.element_span{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+#opis{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+}
