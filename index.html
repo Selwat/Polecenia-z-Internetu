@@ -28,13 +28,27 @@
 
     <p class="p">AAA</p>
  -->
+
+<!--  zad4
+      <label>0</label>
+      <input type="range" name="points" min="0" max="255" value="0" class="range"> 
+      <label>255</label> -->
+
+   
+   <p class="kolory" style="color:red" id="red" color:red;>Czerwony</p>
+   <p class="kolory" style="color:blue" id="blue">Niebieski</p>
+   <p class="kolory" style="color:green" id="green">Zielony</p>
+
     <script>
-    
+    const kolory = document.querySelectorAll(".kolory");
 
+   for(const kolor of kolory){
+      kolor.addEventListener("click", function(){
+         console.log(this.style.color);
+      });
+   }
     
     
-
-
     </script>
 
     <script src="app.js"></script>

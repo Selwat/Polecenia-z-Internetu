@@ -46,7 +46,10 @@ Liczbę wypisz jako nagłówek 1 stopnia. Sprawdź w konsoli typ odczytanej wart
         console.log(num.type);
     }) */
 
-   /* zad3 const range = document.querySelector('.range');
+   /* zad3 Utwórz stronę wg. wzoru. Suwak ma umożliwiać zmianę rozmiaru czcionki w zakresie od 0 do 250px. 
+   Wartość początkowa 14px.
+   
+    const range = document.querySelector('.range');
     const p = document.querySelector('.p');
 
     const funkcja = () =>{
@@ -54,3 +57,14 @@ Liczbę wypisz jako nagłówek 1 stopnia. Sprawdź w konsoli typ odczytanej wart
     };
 
     range.addEventListener("change", funkcja); */
+
+   /* zad4 Utwórz stronę która ma czarne tło i zawiera suwak.
+     Na suwaku można ustawić wartość od 0 do 255, domyślnie 0. Suwak ma umożliwiać zmianę składowej R, koloru tła strony.
+   
+     const suwak = document.querySelector(".range");
+
+    const zamiana = () =>{
+       document.body.style.background = `rgb(${suwak.value}, 255, 255)`;
+    };
+    suwak.addEventListener("click", zamiana); */
+  
